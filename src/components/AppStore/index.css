@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  background-image: linear-gradient(to top, #ace0f9, #fff1eb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-height: 100vh;
+}
+.heading {
+  color: #1e293b;
+  font-size: 35px;
+}
+.search-bar {
+  color: #7b8794;
+  border: 1px solid #7b8794;
+  font-size: 28px;
+}
+.tab-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-items-container {
+  display: flex;
+  flex-direction: roe;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media screen and (width<767px) {
+  .search-bar {
+    color: #7b8794;
+    border: 1px solid #7b8794;
+    font-size: 28px;
+    width: 50vw;
+    height: 30px;
+  }
+}

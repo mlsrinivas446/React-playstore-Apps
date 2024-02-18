@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.tabItem-heading {
+  color: #7b8794;
+  font-size: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0px;
+  text-decoration: underline;
+}
+.tab-list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.active-btn-style {
+  color: #2563eb;
+  font-size: 30px;
+  padding: 10px;
+  background-color: transparent;
+  border: 0px;
+  text-decoration: underline;
+}
+
+@media screen and (width<767px) {
+  .tabItem-heading {
+    color: #7b8794;
+    font-size: 18px;
+    padding: 10px;
+    background-color: transparent;
+    border: 0px;
+    text-decoration: underline;
+  }
+}
